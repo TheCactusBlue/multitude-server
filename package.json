@@ -1,0 +1,40 @@
+{
+  "name": "multitude-server",
+  "version": "1.0.0",
+  "description": "A next-gen chat server.",
+  "main": "index.js",
+  "author": "Randomness",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc && node dist"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.19.0",
+    "@types/cors": "^2.8.10",
+    "@types/express": "^4.17.11",
+    "@types/jsonwebtoken": "^8.5.1",
+    "@types/multer": "^1.4.5",
+    "@types/uuid": "^8.3.0",
+    "@types/ws": "^7.4.4",
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "class-transformer": "^0.4.0",
+    "class-validator": "^0.13.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mediasoup": "3",
+    "multer": "^1.4.2",
+    "pg": "^8.6.0",
+    "reflect-metadata": "^0.1.13",
+    "routing-controllers": "^0.9.0",
+    "typedi": "^0.10.0",
+    "typeorm": "^0.2.34",
+    "typeorm-typedi-extensions": "^0.4.1",
+    "uuid": "^8.3.2",
+    "ws": "^7.4.5"
+  }
+}
